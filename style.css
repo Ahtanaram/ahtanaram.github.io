@@ -1,3 +1,49 @@
 ul {
 	list-style: none;
 }
+
+
+.container {
+margin: 0px auto;
+padding-top: 20px;
+background-color: burlywood;
+}
+
+.col-md-12 {
+	
+	border: 1px solid black;
+	font-size: 22px !important;
+	margin-bottom: 50px;
+	padding: 0px !important;
+}
+
+.col-md-12 p {
+	display: inline;
+	text-align: left;
+	margin-left: 124px;
+}
+
+form {
+	width: 75% !important;
+	padding: 25px;
+
+}
+
+textarea {
+	margin-top: 25px;
+}
+
+.col-md-6 {
+	
+}
+
+.col-md-12 {
+	background-color: blue;
+	display: inline-block !important;
+	height: 175px;
+	width: 75% !important;
+	margin-left:20px !important;
+	padding: 0px !important;
+
+}
+
