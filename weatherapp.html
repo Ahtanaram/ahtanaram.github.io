@@ -3,8 +3,8 @@
     <head>
        <meta charset="UTF-8">
        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<!-- ADD DESCRIPTION -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- ADD DESCRIPTION -->
        <meta name="description" content=" "> 
        <meta name="author" content>
        <title>Weather App</title>
@@ -22,7 +22,6 @@
                $.get( weatherurl , function(weather) {
                         console.log(weather);
                         var htmlstring = '<h1>'+$('#input_city').val()+', '+$('#input_country').val()+'</h1><p><h2>It is currently '+weather.list["0"].main.temp+' &deg;F.</h2></p>';
-                            // your code here
                         $('.col-md-7').append(htmlstring);
                 }, 'json');
                return false;
